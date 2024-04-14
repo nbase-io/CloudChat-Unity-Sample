@@ -12,10 +12,10 @@ This document describes how to use Ncloud Chat Unity SDK for chat development fo
 
 The specifications required to use Ncloud Chat Unity SDK are as follows:
 
-- Minimum specifications: 2018.4.0 or later (If you need support for a lower version of Unity, make an inquiry at Inquiry channel.)
-- Users of Unity Editor on 2019.4.X / 2020.3.X / 2021.1.X version should use 2019.4.29f1 or later / 2020.3.15f2 or later / 2021.1.16f1 or later (Unity Editor bug fixes for AAB version builds).
+- Minimum specifications: 2020.3.X or later (If you need support for a lower version of Unity, make an inquiry at Inquiry channel.)
+- Users of Unity Editor on 2020.3.X / 2021.1.X version should use 2020.3.15f2 or later / 2021.1.16f1 or later (Unity Editor bug fixes for AAB version builds).
 
-with Unity 2019.x or later.
+with Unity 2020.x or later.
 
 ## Install SDK and configure environment
 
