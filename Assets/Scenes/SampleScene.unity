@@ -455,6 +455,7 @@ GameObject:
   m_Component:
   - component: {fileID: 562673360}
   - component: {fileID: 562673359}
+  - component: {fileID: 562673361}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -474,8 +475,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89c50c677ef6249739045fd111147abf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  username: superuser
+  username: unity
   maxMessages: 30
+  messageSpace: 5
+  channelId: 2395961a-ea54-4761-b285-350ffc705dbc
   chatPanel: {fileID: 1842290863}
   textObject: {fileID: 8341923301313026647, guid: 2496d7180c83c483fa40b534e84dac55, type: 3}
   chatBox: {fileID: 831577351}
@@ -495,6 +498,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &562673361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 562673358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57703a222c7024d6cbacea6a32f45af4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &664332940
 GameObject:
   m_ObjectHideFlags: 0
@@ -1217,7 +1232,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1686822094}
   m_HandleRect: {fileID: 1686822093}
   m_Direction: 2
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
